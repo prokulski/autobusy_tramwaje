@@ -9,8 +9,11 @@ import logging
 
 logging.basicConfig(level=logging.INFO, filename='grabber.log', format='%(asctime)s|%(levelname)s|%(filename)s|%(message)s')
 
+# api key in separate file
+from apikey import *
+
+
 WAIT_TIME = 30
-apikey = "47542590-50ec-4ed3-9088-834d0a06ed75"
 resource_id = "f2e5503e927d-4ad3-9500-4ab9e55deb59"
 
 # tworzymy bazę danych
